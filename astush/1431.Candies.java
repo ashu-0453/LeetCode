@@ -43,21 +43,3 @@ public class Candies {
     }
 
 }
-
-//    static boolean[] kidsWithCandies(int[] candies, int extraCandies) {
-//        int n = candies.length;
-//        int[] sum = new int[n];
-//        boolean[] result = new boolean[n];
-//
-//        for (int i = 0; i < n; i++) {
-//            sum[i] = candies[i] + extraCandies;
-//            for (int j = 0; j < n; j++) {
-//                if (sum[i] >= candies[j]) {
-//                    result[i] = true;
-//                }
-//            }
-//        }
-//        System.out.println(Arrays.toString(sum));
-//        return result;
-//    }
-
