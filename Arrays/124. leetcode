@@ -1,0 +1,2 @@
+        Collection.sort(list.getEmployees(),new SalaryComparator());
+        list.displayEmployees();
