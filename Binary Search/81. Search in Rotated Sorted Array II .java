@@ -1,6 +1,6 @@
 class Solution {
     public boolean search(int[] nums, int target) {
-        
+       
        int s=0;
        int e=nums.length-1;
        while(s<=e){
