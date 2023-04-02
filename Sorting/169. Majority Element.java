@@ -1,4 +1,5 @@
 class Solution {
+    
     public int majorityElement(int[] nums) {
         sort(nums);
         int ans=nums[0];
