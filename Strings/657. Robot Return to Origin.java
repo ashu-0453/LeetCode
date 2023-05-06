@@ -4,6 +4,7 @@ class Solution {
         int y=0;
 
         char[] mv=moves.toCharArray();
+        
         if(moves.length()%2 == 0){
             for(char ch:mv){
                 if(ch=='R'){
@@ -17,7 +18,7 @@ class Solution {
                     y--;
                 }
             }
-            return x==0&&y==0?true:false;
+            return x==0&&y==0?true:false; // return x==y && y==0; (Same Meaning)
 
         }
 
