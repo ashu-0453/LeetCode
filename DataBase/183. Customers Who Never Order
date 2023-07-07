@@ -1,0 +1,4 @@
+# Write your MySQL query statement below
+Select name as Customers 
+from Customers 
+where (Select COUNT(*) from Orders where customerId = Customers.id) < 1;
